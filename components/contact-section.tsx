@@ -17,7 +17,7 @@ export default function ContactSection() {
     const encodedMessage = encodeURIComponent(message)
 
     // Redirect to WhatsApp
-    window.open(`https://wa.me/918591667687?text=${encodedMessage}`, "_blank")
+    window.open(`https://wa.me/917028766225?text=${encodedMessage}`, "_blank")
 
     // Reset form
     e.currentTarget.reset()
@@ -88,10 +88,10 @@ export default function ContactSection() {
                 <div>
                   <p className="text-sm text-gray-500">WhatsApp</p>
                   <a
-                    href="https://wa.me/918591667687"
+                    href="https://wa.me/917028766225"
                     className="text-xl font-medium hover:text-primary transition-colors"
                   >
-                    +91 85916 67687
+                    +91 7028766225
                   </a>
                 </div>
               </div>
@@ -105,7 +105,7 @@ export default function ContactSection() {
                     href="mailto:info@techprojectshub.com"
                     className="text-xl font-medium hover:text-primary transition-colors"
                   >
-                    info@techprojectshub.com
+                    contact.projectwala@gmail.com
                   </a>
                 </div>
               </div>
@@ -122,20 +122,15 @@ export default function ContactSection() {
               <div className="mt-8 pt-8 border-t border-gray-200">
                 <h4 className="font-medium mb-5">Follow Us</h4>
                 <div className="flex space-x-4">
-                  <a href="#" className="clay p-3 rounded-full text-blue-600 hover:scale-110 transition-transform">
-                    <i className="bi bi-facebook"></i>
-                  </a>
-                  <a href="#" className="clay p-3 rounded-full text-pink-600 hover:scale-110 transition-transform">
+                
+                  <a href="https://www.instagram.com/project_wala__/profilecard/?igsh=N2FvZ2ZncXE3MWpt" className="clay p-3 rounded-full text-pink-600 hover:scale-110 transition-transform">
                     <i className="bi bi-instagram"></i>
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/rohan-deshmukh-56b4a9294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    href="https://www.linkedin.com/in/project-wala-8b6074362?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                     className="clay p-3 rounded-full text-blue-700 hover:scale-110 transition-transform"
                   >
                     <i className="bi bi-linkedin"></i>
-                  </a>
-                  <a href="#" className="clay p-3 rounded-full text-red-600 hover:scale-110 transition-transform">
-                    <i className="bi bi-youtube"></i>
                   </a>
                 </div>
               </div>
