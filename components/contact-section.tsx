@@ -103,7 +103,7 @@ export default function ContactSection() {
                   <p className="text-sm text-gray-500">Email</p>
                   <a
                     href="mailto:info@techprojectshub.com"
-                    className="text-xl font-medium hover:text-primary transition-colors"
+                    className="text-xl font-small hover:text-primary transition-colors"
                   >
                     contact.projectwala@gmail.com
                   </a>
