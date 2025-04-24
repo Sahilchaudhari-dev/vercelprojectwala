@@ -102,8 +102,8 @@ export default function ContactSection() {
                 <div>
                   <p className="text-sm text-gray-500">Email</p>
                   <a
-                    href="mailto:info@techprojectshub.com"
-                    className="text-xl font-small hover:text-primary transition-colors"
+                    href="mailto:contact.projectwala@gmail.com"
+                    className="text-xl font-medium break-words max-w-full whitespace-normal overflow-hidden hover:text-primary transition-colors"
                   >
                     contact.projectwala@gmail.com
                   </a>
