@@ -72,9 +72,7 @@ export default function Footer() {
               >
                 <i className="bi bi-linkedin"></i>
               </a>
-              <a href="#" className="clay p-2 text-gray-500 hover:text-primary transition-colors">
-                <i className="bi bi-youtube"></i>
-              </a>
+        
             </div>
           </div>
 
